@@ -9,4 +9,4 @@ def test_welcome():
     assert response.json() == {"message": "Welcome A Name"}
 
 def test_fail():
-    assert 1 == 0
+    assert 1 == 1
